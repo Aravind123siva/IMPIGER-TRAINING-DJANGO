@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Blogpost'
+    'rest_framework',
+    'Blogpost',
 ]
 
 MIDDLEWARE = [
@@ -88,6 +89,11 @@ DATABASES = {
         }
     }
 }
+##REST_FRAMEWORK = {
+   ## 'DEFAULT_RENDERER_CLASSES': (
+        #'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'  ,
+   # )
+#}
 
 
 # Password validation
